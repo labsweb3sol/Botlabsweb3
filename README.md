@@ -64,3 +64,4 @@ def create_buy_order(symbol='SOL/USDT', amount=0.01, price=None):
             return f"Exchange network error during buy: {e}"
         except ccxt.ExchangeError as e:
             return f
+pip install python-telegram-bot solana-py ccxt requests
